@@ -42,7 +42,7 @@ main {
 
 .card {
     width: 338px;
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 20px;
 
     overflow: hidden;
@@ -89,7 +89,7 @@ main {
 .category {
     display: inline-block;
     background-color: #EA8C20;
-    color: #fff;
+    color: #ffffff;
     font-size: 12px;
     font-weight: bold;
 
@@ -157,7 +157,7 @@ main {
     display: flex;
     width: 42%;
     align-items: flex-start;
-    background: #fff;
+    background: #ffffff;
     border-radius: 6px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
@@ -189,7 +189,7 @@ main {
 .list-category {
     display: inline-block;
     background-color: #EA8C20;
-    color: #fff;
+    color: #ffffff;
     font-size: 12px;
     font-weight: bold;
 
@@ -263,7 +263,7 @@ main {
         border-radius: 6px;
         width: 100%;
         max-width: 338px;
-        background-color: #fff;
+        background-color: #ffffff;
     }
 
     .list-img-box {
