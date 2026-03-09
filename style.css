@@ -30,6 +30,8 @@ body {
 
 .title-area img {
     margin-bottom: 8px;
+    width: 32px;
+    height: 32px;
 }
 
 main {
