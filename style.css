@@ -48,9 +48,7 @@ main {
     width: 338px;
     background-color: #ffffff;
     padding: 20px;
-
     overflow: hidden;
-
     border-radius: 6px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     gap: 32px;
@@ -63,7 +61,6 @@ main {
 
 .card-container {
     padding: 0;
-
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -96,11 +93,8 @@ main {
     color: #ffffff;
     font-size: 12px;
     font-weight: bold;
-
     padding: 3px 8px;
-
     margin-top: 16px;
-
 }
 
 .category.green {
@@ -196,7 +190,6 @@ main {
     color: #ffffff;
     font-size: 12px;
     font-weight: bold;
-
     padding: 3px 8px;
     margin: 0;
 }
@@ -236,7 +229,6 @@ main {
         gap: 24px;
         width: 100%;
         border-radius: 6px;
-
     }
 
     .card {
