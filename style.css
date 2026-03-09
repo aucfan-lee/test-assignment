@@ -241,6 +241,7 @@ main {
         width: 100%;
         max-width: 338px;
         margin: 0 auto;
+        padding: 16px;
     }
 
     .card-img-box img {
@@ -309,6 +310,10 @@ main {
     .list-btn-more {
         padding-top: 8px;
         padding-bottom: 12px;
+    }
+
+    .btn-area {
+        margin-bottom: 12px;
     }
 
 }
