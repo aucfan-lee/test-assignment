@@ -74,12 +74,21 @@ main {
 .card-title {
     margin-top: 8px;
     margin-bottom: 4px;
+    font-size: 18px;
 }
 
+.card-title, .list-title {
+    line-height: 1.4;
+}
 .card-text {
     margin-top: 4px;
     margin-bottom: 8px;
     color: #707070;
+    font-size: 15px;
+}
+
+.card-text, .list-text {
+    line-height: 1.6;
 }
 
 /* カテゴリ */
