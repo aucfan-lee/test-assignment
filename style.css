@@ -87,7 +87,7 @@ main {
 .category, .list-category {
     display: inline-block;
     padding: 3px 8px;
-    background-color: #EA8C20;
+    background-color: #ea8c20;
     color: #ffffff;
     font-size: 12px;
     font-weight: bold;
@@ -102,11 +102,11 @@ main {
 }
 
 .category.green, .list-category.green {
-    background-color: #40B6BB;
+    background-color: #40b6bb;
 }
 
 .list-category.pink {
-    background-color: #E62294;
+    background-color: #e62294;
 }
 
 .tag-container {
@@ -135,7 +135,7 @@ main {
 
 .btn-more, .list-btn-more {
     padding: 8px 16px;
-    border: 1px solid #DDDDDD;
+    border: 1px solid #dddddd;
     border-radius: 4px;
     color: #111111;
     font-size: 13px;
