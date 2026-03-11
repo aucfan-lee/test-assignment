@@ -18,9 +18,11 @@ main {
 /* ピックアップ記事 */
 
 .pickup, .recommend {
-    max-width: 1600px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .titleArea {
