@@ -68,8 +68,11 @@ main {
 }
 
 .cardImgBox img {
-    width: 338px;
-    height: 120px;
+    width: 100%;
+    max-width: 338px;
+    margin: 0 auto;
+    height: auto;
+    object-fit: cover;
 }
 
 .cardContent {
@@ -251,6 +254,7 @@ main {
     .cardImgBox img {
         display: block;
         width: 100%;
+        max-width: none;
         height: 100px;
     }
 
