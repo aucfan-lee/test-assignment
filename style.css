@@ -18,10 +18,10 @@ main {
 /* ピックアップ記事 */
 
 .pickup, .recommend {
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-    width: 100%;
     box-sizing: border-box;
 }
 
@@ -69,9 +69,9 @@ main {
 
 .cardImgBox img {
     width: 100%;
+    height: auto;
     max-width: 338px;
     margin: 0 auto;
-    height: auto;
     object-fit: cover;
 }
 
