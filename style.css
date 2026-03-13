@@ -214,7 +214,7 @@ main {
 
 /* ピックアップ記事SP */
 
-@media (max-width: 768px) {
+@media (max-width: 750px) {
     
     .cardContainer {
         flex-direction: column;
