@@ -133,7 +133,6 @@ main {
     background-color: #e62294;
 }
 
-
 /* ボタン */
 
 .btnArea {
@@ -215,7 +214,6 @@ main {
 /* ピックアップ記事SP */
 
 @media (max-width: 750px) {
-    
     .cardContainer {
         flex-direction: column;
         align-items: center;
@@ -292,5 +290,4 @@ main {
     .btnArea {
         margin-bottom: 12px;
     }
-
 }
