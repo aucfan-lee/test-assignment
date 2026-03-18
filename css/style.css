@@ -195,7 +195,7 @@ main {
     position: relative;
     flex-grow: 1;
     width: 70%;
-    padding: 16px;
+    padding-left: 16px;
 }
 
 .listTitle {
@@ -220,10 +220,6 @@ main {
         align-items: center;
         gap: 24px;
         width: 100%;
-    }
-
-    .cardContainer, .listContainer {
-        padding: 0;
     }
 
     .card {
@@ -274,7 +270,7 @@ main {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        padding: 0 0 0 16px;
+        padding-left: 16px;
     }
 
     .listCategory {
