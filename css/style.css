@@ -30,9 +30,9 @@ main {
     text-align: center;
 }
 
-.titleArea img {
-    width: 32px;
-    height: 32px;
+.titleIco {
+    width: 100%;
+    height: auto;
     margin-bottom: 8px;
 }
 
