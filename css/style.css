@@ -18,11 +18,7 @@ main {
 /* ピックアップ記事 */
 
 .postCategory {
-    width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-    box-sizing: border-box;
 }
 
 .titleArea {
@@ -48,14 +44,10 @@ main {
     display: flex;
     justify-content: center;
     gap: 32px;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
 .card {
     flex: 1;
-    overflow: hidden;
     padding: 20px;
     border-radius: 6px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
