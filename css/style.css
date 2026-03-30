@@ -88,10 +88,6 @@ main {
 }
 
 .tagContainer {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    border-radius: 5px;
     color: #707070;
 }
 
