@@ -72,7 +72,7 @@ main {
     font-size: 18px;
 }
 
-.cardTitle, .listTitle {
+.topSec {
     line-height: 1.4;
 }
 
@@ -83,7 +83,7 @@ main {
     font-size: 15px;
 }
 
-.cardText, .listText {
+.commonText {
     line-height: 1.6;
 }
 
