@@ -64,7 +64,6 @@ main {
 .cardThumb {
     width: 100%;
     height: auto;
-    object-fit: cover;
 }
 
 .cardTitle {
