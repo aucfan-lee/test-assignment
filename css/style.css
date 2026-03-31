@@ -135,9 +135,10 @@ main {
 }
 
 .btnMoreBase {
+    display: inline-block;
     padding: 8px 16px;
     border: 1px solid #dddddd;
-    border-radius: 4px;
+    border-radius: 3px;
     color: #111111;
     font-size: 13px;
     text-decoration: none;
