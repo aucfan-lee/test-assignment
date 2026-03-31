@@ -145,7 +145,8 @@ main {
 }
 
 .btnArrow {
-    margin-left: 8px;
+    align-items: center;
+    margin-left: 5px;
 }
 
 /* おすすめ記事PC */
