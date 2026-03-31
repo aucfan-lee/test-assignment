@@ -160,7 +160,6 @@ main {
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 32px;
-    width: 100%;
 }
 
 .listItem {
@@ -176,7 +175,6 @@ main {
 .listImgBox {
     width: 100px;
     height: 100px;
-    padding: 0;
 }
 
 .listThumb {
@@ -254,7 +252,6 @@ main {
         align-self: flex-start;
         width: 100px;
         height: 100px;
-        padding: 0;
     }
 
     .listThumb {
