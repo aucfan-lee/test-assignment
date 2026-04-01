@@ -112,10 +112,6 @@ main {
     font-weight: bold;
 }
 
-.listCategory {
-    margin: 0;
-}
-
 .category.green, .listCategory.green {
     background-color: #40b6bb;
 }
