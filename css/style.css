@@ -112,11 +112,11 @@ main {
     font-weight: bold;
 }
 
-.category.green, .listCategory.green {
+.category.secondary, .listCategory.secondary {
     background-color: #40b6bb;
 }
 
-.listCategory.pink {
+.listCategory.tertiary {
     background-color: #e62294;
 }
 
