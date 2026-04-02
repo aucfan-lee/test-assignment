@@ -1,0 +1,310 @@
+@charset "UTF-8";
+
+body {
+    background-color: #f2f2f2;
+    font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin-block: 80px;
+}
+
+/* ピックアップ記事 */
+
+.postCategory {
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-inline: 20px;
+}
+
+.titleArea {
+    margin-bottom: 40px;
+    text-align: center;
+    
+    .title {
+        margin-top: 0;
+        font-size: 24px;
+    }
+}
+
+.titleIco {
+    width: 100%;
+    height: auto;
+    margin-bottom: 8px;
+}
+
+
+/* cardの形 */
+
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.card {
+    flex: 1;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.cardImgBox{
+    width: 338px;
+    height: 120px;
+    margin-bottom: 16px;
+}
+
+.cardThumb {
+    width: 100%;
+    height: auto;
+}
+
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+}
+
+.cardTitle {
+    font-size: 18px;
+}
+
+.topSec {
+    line-height: 1.4;
+}
+
+.cardText {
+    color: #707070;
+    font-size: 15px;
+}
+
+.commonText {
+    margin-top: -4px;
+    line-height: 1.6;
+}
+
+.tagContainer {
+    color: #707070;
+}
+
+.tag {
+    display: inline-block;
+    padding: 2px 4px;
+    border-radius: 3px;
+    background-color: #f5f5f5;
+    color: #707070;
+    font-size: 12px;
+}
+
+/* カテゴリ */
+
+.category, .listCategory {
+    display: inline-block;
+    padding: 3px 8px;
+    background-color: #ea8c20;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.listCategory {
+    width: fit-content;
+}
+
+.category.secondary, .listCategory.secondary {
+    background-color: #40b6bb;
+}
+
+.listCategory.tertiary {
+    background-color: #e62294;
+}
+
+/* ボタン */
+
+.btnArea {
+    margin-left: auto;
+}
+
+.btnMoreBase {
+    display: inline-block;
+    padding: 8px 16px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    color: #111111;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.btnArrow {
+    align-items: center;
+    margin-left: 5px;
+}
+
+/* おすすめ記事PC */
+
+.recommend {
+    margin-top: 80px;
+}
+
+.listContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.listItem {
+    display: flex;
+    align-items: flex-start;
+    width: calc(50% - 16px);
+    padding: 16px;
+    border-radius: 6px;
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.1);
+    background: #ffffff;
+}
+
+.listImgBox {
+    width: 100px;
+    aspect-ratio: 1 / 1;
+    flex-shrink: 0;
+}
+
+.listThumb {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.listContent {
+    display: grid;
+    gap: 8px;
+    position: relative;
+    padding-left: 16px;
+    align-items: flex-start;
+}
+
+.listTitle {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.listText {
+    margin-top: -4px;
+    color: #707070;
+    font-size: 14px;
+}
+
+/* ピックアップ記事SP */
+
+@media (max-width: 750px) {
+    .titleArea {
+        margin-bottom: 24px;
+    }
+    
+    .title {
+        font-size: 20px;
+    }
+
+    .cardContainer {
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        width: 100%;
+    }
+
+    .card {
+        padding: 16px;
+    }
+
+    .card, .listItem {
+        width: 100%;
+        max-width: none;
+        margin: 0;
+    }
+
+    .cardTitle {
+        font-size: 15px;
+    }
+
+    .cardText {
+        font-size: 13px;
+    }
+
+    .cardImgBox {
+        margin-bottom: 0;
+    }
+
+    .cardThumb {
+        display: block;
+        width: 100%;
+        max-width: none;
+        height: 100px;
+    }
+
+    /* おすすめ記事SP */
+
+    .listContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .listItem {
+        display: flex;
+        align-items: center;
+        padding: 12px;
+        border-radius: 6px;
+    }
+
+    .listImgBox {
+        align-self: flex-start;
+    }
+
+    .listTitle {
+        font-size: 15px;
+    }
+    
+    .listText {
+        font-size: 12px;
+    }
+
+    .listThumb {
+        padding-top: 0;
+    }
+
+    .listContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-left: 16px;
+    }
+
+    .listCategory {
+        align-self: flex-start;
+        margin-top: 0;
+    }
+
+    .listTitle {
+        margin-bottom: 0;
+        font-size: 15px;
+    }
+
+    .btnArea {
+        margin-top: 8px;
+    }
+
+    .btnMoreBase {
+        font-size: 12px;
+    }
+}
