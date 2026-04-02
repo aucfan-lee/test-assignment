@@ -174,7 +174,8 @@ main {
 
 .listImgBox {
     width: 100px;
-    height: 100px;
+    aspect-ratio: 1 / 1;
+    flex-shrink: 0;
 }
 
 .listThumb {
@@ -239,6 +240,10 @@ main {
         font-size: 13px;
     }
 
+    .cardImgBox {
+        margin-bottom: 0;
+    }
+
     .cardThumb {
         display: block;
         width: 100%;
@@ -264,8 +269,7 @@ main {
 
     .listImgBox {
         align-self: flex-start;
-        width: 100px;
-        height: 100px;
+    }
 
     .listTitle {
         font-size: 15px;
