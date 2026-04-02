@@ -20,7 +20,7 @@ main {
 .postCategory {
     max-width: 1200px;
     margin-inline: auto;
-    padding: 20px;
+    padding-inline: 20px;
 }
 
 .titleArea {
