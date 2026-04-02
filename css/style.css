@@ -67,9 +67,14 @@ main {
     height: auto;
 }
 
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+}
+
 .cardTitle {
-    margin-top: 8px;
-    margin-bottom: 4px;
     font-size: 18px;
 }
 
@@ -78,13 +83,12 @@ main {
 }
 
 .cardText {
-    margin-top: 4px;
-    margin-bottom: 8px;
     color: #707070;
     font-size: 15px;
 }
 
 .commonText {
+    margin-top: -4px;
     line-height: 1.6;
 }
 
@@ -112,6 +116,10 @@ main {
     font-weight: bold;
 }
 
+.listCategory {
+    width: fit-content;
+}
+
 .category.secondary, .listCategory.secondary {
     background-color: #40b6bb;
 }
@@ -123,8 +131,7 @@ main {
 /* ボタン */
 
 .btnArea {
-    margin-top: 10px;
-    text-align: right;
+    margin-left: auto;
 }
 
 .btnMoreBase {
@@ -178,22 +185,20 @@ main {
 }
 
 .listContent {
+    display: grid;
+    gap: 8px;
     position: relative;
-    flex-grow: 1;
-    width: 70%;
     padding-left: 16px;
+    align-items: flex-start;
 }
 
 .listTitle {
-    margin-top: 8px;
-    margin-bottom: 4px;
     font-size: 16px;
     font-weight: bold;
 }
 
 .listText {
-    margin-top: 4px;
-    margin-bottom: 8px;
+    margin-top: -4px;
     color: #707070;
     font-size: 14px;
 }
