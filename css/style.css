@@ -206,6 +206,10 @@ main {
 /* ピックアップ記事SP */
 
 @media (max-width: 750px) {
+    .titleArea {
+        margin-bottom: 24px;
+    }
+    
     .title {
         font-size: 20px;
     }
